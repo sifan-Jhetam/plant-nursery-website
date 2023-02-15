@@ -1,0 +1,161 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+#bg {
+    background-image: url(/images/—Pngtree—plant\ pot\ front\ view_8169559.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: rgb(218, 241, 189);
+}
+
+header {
+    display: grid;
+    grid-template-columns: 10% 70%;
+    grid-template-rows: 13.5vh;
+}
+
+header section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section>img {
+    height: 10vh;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul a {
+    text-decoration: none;
+    padding: 12px;
+    margin: 0.8rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font: size 1.6em;
+    color: white;
+    text-shadow: 1px 1px 2px black, 0 0 25px rgb(27, 231, 51), 0 0 5px rgb(3, 82, 32);
+    border-radius: 25px;
+}
+
+nav ul a:hover {
+    background-color: rgb(205, 228, 175);
+    border-radius: 25px;
+}
+
+
+main>section {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 87vh;
+    justify-content: center;
+}
+
+#s1 {
+    display: grid;
+    grid-template-columns: 48% 48%;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+#s1-1 {
+    width: auto;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+#s1-1>h3 {
+    color: rgb(19 146 151);
+    font-size: 2rem;
+    text-align: center;
+    margin-top: 10vh;
+    margin-right: 25%;
+}
+
+#s1-1 div {
+    margin-left: 8%;
+}
+
+#s1-1 div button {
+    padding: 8px;
+    color: white;
+    font-weight: bold;
+    background-color: rgb(19 146 151);
+    border-radius: 15px;
+    margin: 4px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#s1-2 {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+#s1-2 div div {
+    color: rgb(242, 244, 242);
+    text-align: center;
+
+    display: inline-block;
+    margin: 10px;
+    padding: 12px;
+    background-color: rgb(19 146 151);
+    border-radius: 20px;
+}
+
+#s2 {
+    display: grid;
+    grid-template-columns: 32% 32% 32%;
+    justify-content: center;
+    background-color: rgb(225, 217, 227);
+}
+
+#s2 div {
+    margin: 8px;
+    padding: 6px;
+    text-align: center;
+    color: rgb(8, 2, 69);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#s2 div h3 {
+    font-size: 1.5em;
+}
+
+#s2 div img {
+    width: fit-content;
+    display: block;
+    width: 100px;
+    margin: 6px auto 6px auto;
+}
+
+footer {
+    display: grid;
+    grid-template-columns: 48% 48%;
+    width: auto;
+    justify-content: center;
+    background-color: rgb(201, 195, 203);
+}
+
+footer div {
+    margin-bottom: 8px;
+}
+
+footer img {
+    display: block;
+    object-fit: cover;
+    height: 10vh;
+    margin-left: 2vw;
+
+}
+
+footer div {
+    display: flex;
+    align-items: center;
+}
