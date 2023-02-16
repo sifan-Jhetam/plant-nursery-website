@@ -44,7 +44,7 @@ nav ul a {
 }
 
 nav ul a:hover {
-    background-color: rgb(205, 228, 175);
+    color: rgb(233, 246, 213);
     border-radius: 25px;
 }
 
@@ -88,8 +88,10 @@ main>section {
     font-weight: bold;
     background-color: rgb(19 146 151);
     border-radius: 15px;
+    border: 0px;
     margin: 4px;
     font-family: Arial, Helvetica, sans-serif;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 #s1-2 {
@@ -107,6 +109,26 @@ main>section {
     padding: 12px;
     background-color: rgb(19 146 151);
     border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.pricing{
+    margin-top: 30px;
+    font-size: small;
+    font-family: fangsong;
+    font-style: italic;
+}
+
+.pricing + button{
+    background-color: rgb(95, 95, 235);
+    color: white;
+    padding: 6px 15px ;
+    margin-top: 5px;
+    border-radius: 13px;
+    border: 0;
+    font-size: small;
+    font-family: fangsong;
+    
 }
 
 #s2 {
@@ -122,6 +144,7 @@ main>section {
     text-align: center;
     color: rgb(8, 2, 69);
     font-family: Arial, Helvetica, sans-serif;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 
 #s2 div h3 {
@@ -152,7 +175,7 @@ footer img {
     object-fit: cover;
     height: 10vh;
     margin-left: 2vw;
-
+    
 }
 
 footer div {
