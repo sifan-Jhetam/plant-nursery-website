@@ -1,0 +1,46 @@
+@media only screen and (max-width: 600px){
+
+    *{
+        box-sizing: border-box;
+        padding: 0px;
+        margin: 0px;
+    }
+
+    main>section{
+        max-height:600px;
+        
+    }
+    #s1{
+        display: block;
+        
+        width: 100%;
+        text-align: center;
+        
+       
+    }
+
+    #s1-1>h3{
+        margin: 10px;
+    }
+
+    #s1-1 div{
+        margin: 0;
+        margin-top: 40px;
+    }
+    #s1-1{
+        display: block;
+        width: 100%;
+    }
+
+    #s1-2{
+        display: block;
+        width: 100%;
+        margin-top: 40px;
+    }
+
+    
+
+    #s1-2 div div{
+        display: block;
+    }
+}
