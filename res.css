@@ -54,4 +54,54 @@
     footer{
         font-size: x-small;
     }
+
+    header{
+        grid-template-columns: 10% 88%;
+        height: 13vh;
+        align-items: center;
+        
+    }
+    header img{
+        margin-left: 4vw;
+    }
+
+    header section{
+        display: block;
+    }
+
+    nav ul{
+        position: fixed;
+        height: 100vh;
+       left: 100%;
+        top: 13vh;
+        transition: all .5s;
+        display: block;
+        
+    }
+
+    header label{
+        display: block;
+        position: relative;
+        float: right;
+    }
+
+    #check{
+        display: none;
+    }
+
+    #check:checked ~ nav ul{
+        
+        left: 0;
+        display: block;
+        background-color: rgba(29, 29, 29, 0.934);
+        width: 100%;
+        
+    }
+
+    nav ul li{
+        display: block;
+        text-align: center;
+        padding: 5px;
+        margin: 4vh;
+    }
 }

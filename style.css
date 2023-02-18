@@ -4,11 +4,12 @@
 }
 
 #bg {
-    background-image: url(images/—Pngtree—plant\ pot\ front\ view_8169559.png);
-    background-size: contain;
+    /* background-image: url(images/—Pngtree—plant\ pot\ front\ view_8169559.png); */
+    background-image: url(images/pexels-cottonbro-studio-4503267.jpg);
+    background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    background-color: rgb(218, 241, 189);
+    opacity: 80;
 }
 
 header {
@@ -39,7 +40,7 @@ nav ul a {
     font-family: Arial, Helvetica, sans-serif;
     font: size 1.6em;
     color: white;
-    text-shadow: 1px 1px 2px black, 0 0 25px rgb(27, 231, 51), 0 0 5px rgb(3, 82, 32);
+    text-shadow: 3px 2px black;
     border-radius: 25px;
 }
 
@@ -71,11 +72,12 @@ main>section {
 }
 
 #s1-1>h3 {
-    color: rgb(19 146 151);
+    color: white;
     font-size: 2rem;
     text-align: center;
     margin-top: 10vh;
     margin-right: 25%;
+    text-shadow: 3px 2px black;
 }
 
 #s1-1 div {
@@ -85,8 +87,8 @@ main>section {
 #s1-1 div button {
     padding: 8px;
     color: white;
-    font-weight: bold;
-    background-color: rgb(19 146 151);
+    text-shadow: 3px 2px black;
+    background-color: rgb(17 20 19 / 85%);
     border-radius: 15px;
     border: 0px;
     margin: 4px;
@@ -103,11 +105,11 @@ main>section {
 #s1-2 div div {
     color: rgb(242, 244, 242);
     text-align: center;
-
+    text-shadow: 3px 2px black;
     display: inline-block;
     margin: 10px;
     padding: 12px;
-    background-color: rgb(19 146 151);
+    background-color: rgb(17 20 19 / 85%);
     border-radius: 20px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
@@ -135,7 +137,8 @@ main>section {
     display: grid;
     grid-template-columns: 32% 32% 32%;
     justify-content: center;
-    background-color: rgb(225, 217, 227);
+    /* background-color: rgb(225, 217, 227); */
+    background-image: linear-gradient(rgb(207, 207, 207), rgb(198, 166, 206));
 }
 
 #s2 div {
@@ -145,10 +148,12 @@ main>section {
     color: rgb(8, 2, 69);
     font-family: Arial, Helvetica, sans-serif;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    text-shadow: 1px 1px rgb(137, 137, 137);
 }
 
 #s2 div h3 {
     font-size: 1.5em;
+    text-shadow: 1px 1px black;
 }
 
 #s2 div img {
@@ -163,7 +168,7 @@ footer {
     grid-template-columns: 48% 48%;
     width: auto;
     justify-content: center;
-    background-color: rgb(201, 195, 203);
+    background-image: linear-gradient(rgb(184, 188, 209),rgb(129, 127, 145));
 }
 
 footer div {
@@ -181,4 +186,10 @@ footer img {
 footer div {
     display: flex;
     align-items: center;
+}
+#check{
+    display: none;
+}
+header label{
+    display: none;
 }
