@@ -36,7 +36,7 @@
         position: fixed;
         height: 100vh;
        left: 100%;
-        top: 13vh;
+        top: 9.5vh;
         transition: all .5s;
         display: block;
         
@@ -79,6 +79,7 @@
 
     #s1-1>h3{
         margin: 10px;
+        font-size: 1.7rem;
     }
 
     #s1-1 div{
@@ -99,14 +100,11 @@
         margin: auto;
     }
 
-    #s1-2 + div{
+    
+    #s1-2 > div{
         display: flex;
         align-items: center;
         justify-content: center;
-    }
-
-    #s1-2 div div{
-        display: inline-block;
     }
 
     #s2{
