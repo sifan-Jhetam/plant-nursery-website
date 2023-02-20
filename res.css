@@ -13,15 +13,16 @@
     }
 
     header img {
-        height: 10vh;
-        min-height: 58px;
+        height: 60px;
+        
         margin-left: 2vw;
     }
 
     
     header{
         grid-template-columns: 10% 88%;
-        height: 13vh;
+        grid-template-rows: 9.5vh;
+        min-height: 63px;
         align-items: center;
         
     }
@@ -98,12 +99,18 @@
         margin: auto;
     }
 
+    #s1-2 + div{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
     #s1-2 div div{
         display: inline-block;
     }
 
     #s2{
-       grid-template-columns: 80%;
+       grid-template-columns: 85%;
        margin-top: 4px;
     }
 
